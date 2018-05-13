@@ -27,8 +27,8 @@ The tests for adapting ESN to a specific frequency (Fig.6a) is launched with the
 A small set of the time series is plotted in Fig. 3. The power spectral density is plotted in Fig. 6 a, d, g.
 
 5) spokenarabicdigitrecognition
-This folder contains all the tests relating to the calssification of spoken Arabic Digits as well as the raw data. 
-TO DO: DOWNLOAD AND PREPROCESS THE DATA
+This folder contains all the tests relating to the calssification of spoken Arabic Digits as well as the preprocessed data. 
+The preprocessed data and the preprocessing function are in the folder DataSpokenArabicDigit. The raw data is too large for github, but it can be downloaded from "https://archive.ics.uci.edu/ml/datasets/Spoken+Arabic+Digit".
 The tests for memory of different topologies (Fig 4.c) is launched with the script testSpokenDigitRecog_Topologies.m in the folder tests. 
 The tests for adapting ESN to a specific frequency (Fig.6b) is launched with the script testSpokenDigitRecog_Cycles.m in the folder tests
 The time series for the first digit are plotted in Fig. 3. The power spectral density is plotted in Fig. 6 c, f, i
