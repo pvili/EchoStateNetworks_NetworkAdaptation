@@ -1,5 +1,5 @@
 This code generates all the code relating to the article "Tailoring Recurrent Neural Networks for Optimal Learning".
-All the scripts can be run in the commercial software MATLAB version 2012.
+All the scripts can be run in the commercial software MATLAB version 2012. OS was Debian. Windows users might have to change path dependencies to take \ instead of /
 The runtimes are indicative.
 It includes six different folders:
 
