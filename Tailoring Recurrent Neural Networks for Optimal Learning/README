@@ -1,22 +1,26 @@
 This code generates all the code relating to the article "Tailoring Recurrent Neural Networks for Optimal Learning".
-All the scripts can be run in the commertial software MATLAB. 
+All the scripts can be run in the commercial software MATLAB version 2012.
+The runtimes are indicative.
 It includes six different folders:
 
 1) CorrelationsMemoryLambda 
 This folder contains scripts to generate data relating memory of an Echo State Network, the correlations between its neurons and the eigenvalues of its adjacency matrix.
 The code can be run by launching the script mainLambdaVsCorrelationVsMemory.m
 The data generated is plotted in Fig.3
+Run time is arround two hours
 
 2) findOptimalRho
 This folder contains a heuristic to find the fraction of cycles to adapt an ESN to a specific task. 
 The code can be run by launching the script findCoeffsRho.m
 The result is plotted as a dotted line in all the subplots of Fig. 7
+The run time depends on the dataset but is at most 1h.
 
 3) lasertimeseriesforecasting
 This folder contains all the tests relating to the Laser Intensity time series as well as the raw data. 
 The tests for memory of different topologies (Fig 4.b) is launched with the script laserTS_TopologiesTests.m . 
 The tests for adapting ESN to a specific frequency (Fig.6b) is launched with the script laserTS_CycleTest.m
 A small set of the time series is plotted in Fig. 3. The power spectral density is plotted in Fig. 6 b, e, h
+Run time is around 2 hours for every test.
 
 4) mackeyglasstimeseriesforecasting
 This folder contains all the tests relating to the Mackey-Glass time series as well as the generating functions. 
@@ -25,6 +29,7 @@ The tests for the effects of different network parameters (Fig. 2) are launched 
 The tests for memory of different topologies (Fig 4.a) are launched with the scripts testPowerLawWeightDist.m, testSF.m and testSpecRad.m in the folder ESNPerfVsEigenvalueDistribution. 
 The tests for adapting ESN to a specific frequency (Fig.6a) is launched with the script testMGTS_Cycles.m in the folder ESNCyclePerformance.
 A small set of the time series is plotted in Fig. 3. The power spectral density is plotted in Fig. 6 a, d, g.
+Run time is around 2 hours for every other test.
 
 5) spokenarabicdigitrecognition
 This folder contains all the tests relating to the calssification of spoken Arabic Digits as well as the preprocessed data. 
@@ -32,6 +37,7 @@ The preprocessed data and the preprocessing function are in the folder DataSpoke
 The tests for memory of different topologies (Fig 4.c) is launched with the script testSpokenDigitRecog_Topologies.m in the folder tests. 
 The tests for adapting ESN to a specific frequency (Fig.6b) is launched with the script testSpokenDigitRecog_Cycles.m in the folder tests
 The time series for the first digit are plotted in Fig. 3. The power spectral density is plotted in Fig. 6 c, f, i
+Runtime is around 4 hours.
 
 6) networkCreationFiles
 This folder contains the algorithms to generate the different network topologies used in the main text and described in the Methods section.
