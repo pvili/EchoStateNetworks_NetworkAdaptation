@@ -1,0 +1,2 @@
+This folder contains the preprocessed data and the preprocessing function.
+The raw data is too large for github, but it can be downloaded from "https://archive.ics.uci.edu/ml/datasets/Spoken+Arabic+Digit".
