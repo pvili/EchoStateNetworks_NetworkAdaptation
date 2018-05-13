@@ -1,4 +1,4 @@
-This code generates all the data and figures presented in the article "Tailoring Recurrent Neural Networks for Optimal Learning".
+This code generates all the code relating to the article "Tailoring Recurrent Neural Networks for Optimal Learning".
 All the scripts can be run in the commertial software MATLAB. 
 It includes six different folders:
 
